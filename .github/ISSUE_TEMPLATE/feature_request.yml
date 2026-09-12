@@ -1,0 +1,104 @@
+name: 💡 Feature Request
+description: Suggest a new feature, improvement, or workflow for MCST3RX Race Control.
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an improvement for **MCST3RX Race Control**.
+
+        Before submitting:
+        - Check existing issues to see whether the idea has already been suggested.
+        - Submit one feature request per issue.
+        - Be as specific as possible.
+        - Feature requests are suggestions and are not guaranteed to be implemented.
+        - NASCAR 26-specific functionality may be deferred while NASCAR 26 remains **Future / Not Yet Supported**.
+
+  - type: input
+    id: race_control_version
+    attributes:
+      label: Race Control Version
+      description: Enter the version you are currently using.
+      placeholder: e.g. 1.0.0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: game
+    attributes:
+      label: Game / Area
+      description: Which game or part of Race Control does this request relate to?
+      options:
+        - NASCAR 25
+        - General Race Control
+        - User Interface
+        - Hotkeys
+        - Audio / Feedback
+        - Compatibility
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: feature_title
+    attributes:
+      label: Feature Title
+      description: Give the request a short descriptive name.
+      placeholder: e.g. Save custom editor presets
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Detailed Description
+      description: Clearly describe the feature or improvement you would like.
+      placeholder: Describe the feature request in detail...
+    validations:
+      required: true
+
+  - type: textarea
+    id: usefulness
+    attributes:
+      label: Why Would This Be Useful?
+      description: Explain why this feature would improve Race Control.
+      placeholder: Tell us why this would be useful...
+    validations:
+      required: true
+
+  - type: textarea
+    id: workflow
+    attributes:
+      label: How Do You Imagine It Working?
+      description: Describe how you think the feature should work in practice.
+      placeholder: Describe the expected workflow...
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: Examples / References
+      description: Include screenshots, mockups, examples, or references if available.
+      placeholder: Links, screenshots, mockups, examples...
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Information
+      description: Add anything else that may help explain the request.
+      placeholder: Anything else you want to add...
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have checked existing issues and this feature has not already been suggested.
+          required: true
+        - label: I understand that feature requests are suggestions and are not guaranteed to be implemented.
+          required: true
+        - label: I understand that NASCAR 26 is currently Future / Not Yet Supported and NASCAR 26-specific requests may be deferred.
+          required: true
