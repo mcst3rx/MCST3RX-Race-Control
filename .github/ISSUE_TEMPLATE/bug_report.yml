@@ -1,0 +1,126 @@
+name: 🐛 Bug Report
+description: Report a problem or something that is not working as expected in MCST3RX Race Control.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a problem with **MCST3RX Race Control**.
+
+        Before submitting:
+        - Make sure you are using the latest official release.
+        - Check existing issues to see whether the problem has already been reported.
+        - Do not report NASCAR 26 functionality while it is marked **Future / Not Yet Supported**.
+        - Do not publicly upload private or sensitive files.
+
+  - type: input
+    id: race_control_version
+    attributes:
+      label: Race Control Version
+      description: Enter the version shown in the application.
+      placeholder: e.g. 1.0.0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: game
+    attributes:
+      label: Game
+      description: Select the game you are using.
+      options:
+        - NASCAR 25
+        - Other / Not Listed
+    validations:
+      required: true
+
+  - type: input
+    id: game_version
+    attributes:
+      label: Game Version / Build
+      description: Enter the game version or build if known.
+      placeholder: e.g. game version/build number
+
+  - type: input
+    id: affected_area
+    attributes:
+      label: Affected Feature or Area
+      description: Which feature or part of Race Control is affected?
+      placeholder: e.g. Unlimited Fuel, Connect, Hotkeys, Edit Money
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Describe the Problem
+      description: Clearly explain what happened.
+      placeholder: Tell us what happened...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: Provide the exact steps needed to reproduce the problem.
+      placeholder: |
+        1. Start...
+        2. Select...
+        3. Enable...
+        4. Observe...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen?
+      placeholder: Tell us what you expected...
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: What actually happened?
+      placeholder: Tell us what actually happened...
+    validations:
+      required: true
+
+  - type: textarea
+    id: errors
+    attributes:
+      label: Error Messages
+      description: Include the exact error or status message if applicable.
+      placeholder: Paste any relevant error messages here...
+
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Screenshots / Recordings
+      description: Add screenshots, short recordings, or other useful visual evidence if available.
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Information
+      description: Add anything else that may help investigate the issue.
+      placeholder: Any other details...
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have checked existing issues and this problem has not already been reported.
+          required: true
+        - label: I am using the latest official MCST3RX Race Control release.
+          required: true
+        - label: I understand that NASCAR 26 is currently Future / Not Yet Supported and I will not report unsupported NASCAR 26 functionality as a bug.
+          required: true
+        - label: I have not included passwords, account credentials, or other sensitive information.
+          required: true
