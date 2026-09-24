@@ -12,7 +12,7 @@ body:
         Before submitting:
         - Make sure you are using the latest official release.
         - Check existing issues to see whether the problem has already been reported.
-        - Do not report NASCAR 26 functionality while it is marked **Future / Not Yet Supported**.
+        - NASCAR 26 v1.1.0 supports the 16 options listed in the release notes.
         - Do not publicly upload private or sensitive files.
 
   - type: input
@@ -20,7 +20,7 @@ body:
     attributes:
       label: Race Control Version
       description: Enter the version shown in the application.
-      placeholder: e.g. 1.0.0
+      placeholder: e.g. 1.1.0
     validations:
       required: true
 
@@ -31,6 +31,7 @@ body:
       description: Select the game you are using.
       options:
         - NASCAR 25
+        - NASCAR 26
         - Other / Not Listed
     validations:
       required: true
@@ -120,7 +121,7 @@ body:
           required: true
         - label: I am using the latest official MCST3RX Race Control release.
           required: true
-        - label: I understand that NASCAR 26 is currently Future / Not Yet Supported and I will not report unsupported NASCAR 26 functionality as a bug.
+        - label: I understand that v1.1.0 supports the 16 documented NASCAR 26 options; additional features are not promised.
           required: true
         - label: I have not included passwords, account credentials, or other sensitive information.
           required: true

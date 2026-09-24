@@ -1,116 +1,22 @@
-## 💬 Bug Reports & Feature Requests
+# MCST3RX Race Control v1.1.0
 
-Found a problem with MCST3RX Race Control or have an idea for an improvement?
+**Race Control. Your Way.** Windows x64 trainer with **19 supported NASCAR 25 options** and **16 supported NASCAR 26 options**.
 
-➡️ **Open an Issue:**  
-https://github.com/mcst3rx/MCST3RX-Race-Control/issues/new/choose
+The exact v1.1.0 build passed user live acceptance. See [release notes](RELEASE_NOTES.md) for all options, hotkeys and limitations.
 
-Choose the appropriate template:
+## Get started
 
-- 🐛 **Bug Report** — Report a problem or something that is not working as expected.
-- 💡 **Feature Request** — Suggest a new feature, improvement, or workflow.
+Extract the complete release ZIP, keep the runtime DLLs beside MCST3RX-Race-Control.exe, start your game normally, select the game, and Connect. Use Disconnect / restore before switching games or closing. Use offline sessions and retain save backups before progression edits. A game update may require a compatibility update.
 
-### 🐛 Bug Reports
+NASCAR 26 Easy AI, Super Acceleration, Super Brakes and Super Jump are not part of v1.1.0. Their NASCAR 25 counterparts remain available. NASCAR 26 is supported for the 16 listed options; no 20/20 claim is made.
 
-Before submitting a bug report:
+Verify the download against SHA256SUMS.txt. Product version is 1.1.0; file version is 1.1.0.1.
 
-- Make sure you are using the latest official release.
-- Check existing issues to see whether the problem has already been reported.
-- Include your MCST3RX Race Control version.
-- Include the affected game and game version/build when known.
-- Identify the affected feature or area.
-- Explain the exact steps needed to reproduce the problem.
-- Include any relevant status or error message.
-- Attach screenshots or a short recording when useful.
-- Do not publicly upload passwords, credentials, or other sensitive information.
+## Community and support
 
-> **NASCAR 26:** Functionality should not be reported as broken while NASCAR 26 remains marked **Future / Not Yet Supported**.
+- [Bug reports and feature requests](https://github.com/mcst3rx/MCST3RX-Race-Control/issues/new/choose): include the game, game build, Race Control version and affected feature.
+- [YouTube](https://www.youtube.com/@mcst3rx)
+- [Discord](https://discord.gg/TyVaFfSsnT)
+- [Ko-fi](https://ko-fi.com/mcst3rx)
 
-### 💡 Feature Requests
-
-Before submitting a feature request:
-
-- Check existing issues to see whether the idea has already been suggested.
-- Submit one feature request per issue.
-- Include your current Race Control version.
-- Clearly describe the feature or improvement.
-- Explain why it would be useful.
-- Describe how you imagine it working.
-- Include screenshots, mockups, examples, or references when helpful.
-
-Feature requests are suggestions and are not guaranteed to be implemented.
-
-> **NASCAR 26:** Requests that depend on NASCAR 26 functionality may be deferred until the game has been released and researched.
-
----
-
-## ☕ Support MCST3RX
-
-All MCST3RX tools are developed for the community and provided free of charge.
-
-If you enjoy MCST3RX Race Control and would like to support continued development:
-
-**Ko-fi**  
-https://ko-fi.com/mcst3rx
-
-Support is completely optional and never unlocks or gates application features.
-
----
-
-## 🌐 Community
-
-Join the MCST3RX community for development updates, tutorials, feature previews, release announcements, support, and future NASCAR game development.
-
-### 💬 Discord
-
-https://discord.gg/TyVaFfSsnT
-
-Join the Discord server to:
-
-- Follow Race Control development
-- Get release announcements
-- Discuss supported features
-- Share feedback
-- Report community observations
-- Follow future NASCAR 26 development
-- Keep up with other MCST3RX tools
-
-### 📺 YouTube
-
-https://www.youtube.com/@mcst3rx
-
-YouTube will feature:
-
-- Tutorials
-- Feature demonstrations
-- Development previews
-- Release showcases
-- NASCAR tool updates
-- Future game-support updates
-
-### 🐙 GitHub
-
-https://github.com/mcst3rx
-
-Follow the MCST3RX GitHub profile for Race Control releases and other MCST3RX projects.
-
-### ☕ Ko-fi
-
-https://ko-fi.com/mcst3rx
-
-Optional support helps continued development of MCST3RX community tools.
-
-The same official Community / support destinations are also available directly inside MCST3RX Race Control.
-
----
-
-## 🔗 Official MCST3RX Links
-
-| Platform | Link |
-| --- | --- |
-| GitHub | https://github.com/mcst3rx |
-| YouTube | https://www.youtube.com/@mcst3rx |
-| Discord | https://discord.gg/TyVaFfSsnT |
-| Ko-fi | https://ko-fi.com/mcst3rx |
-
-Only links published through official MCST3RX channels should be treated as official project destinations.
+Proprietary freeware; see [License.md](License.md). No game is included. Independent community project, not endorsed by NASCAR or its developers/publishers.
