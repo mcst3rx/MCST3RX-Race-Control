@@ -1,59 +1,117 @@
+
 # 🏁 MCST3RX Race Control v1.2.0
 
 **Race Control. Your Way.**
 
-MCST3RX Race Control is a Windows x64 companion tool for NASCAR 25 and NASCAR 26, featuring gameplay cheats, customizable hotkeys, game selection, connection management and offline gameplay options.
+MCST3RX Race Control is a Windows x64 companion tool for NASCAR 25 and NASCAR 26, featuring gameplay cheats, customizable hotkeys, game selection, connection management, live value editors and offline gameplay options.
 
-**🏆 NASCAR 25 — 19 Gameplay-Verified Cheats**
+**🏆 NASCAR 25 — 19 Original Cheats**
 
-**🏆 NASCAR 26 — 20 Gameplay-Verified Cheats**
+**🏆 NASCAR 26 — 20 Original Cheats**
 
-Version 1.2.0 brings together the complete NASCAR 25 and NASCAR 26 feature lineup in one application, with improvements to responsiveness, hotkey handling, compatibility and connection management.
+**39 Total Gameplay Features Across Two NASCAR Games**
+
+The original NASCAR 25 and NASCAR 26 trainer implementations have been historically gameplay-tested and owner-approved.
+
+Version 1.2.0 brings both feature lineups together in one application, with improvements to responsiveness, hotkey handling, compatibility, connection management and user experience.
+
+> **Development status:** The rebuilt Race Control v1.2.0 application is undergoing final integration and owner gameplay acceptance. Historical trainer acceptance does not automatically establish gameplay acceptance for the rebuilt executable. The official v1.2.0 release will be published after completion and approval.
 
 ---
 
 ## 📥 Download & Usage
 
-Download the official Windows x64 release:
+### 🏁 Official Windows x64 Release
 
-**[🏁 MCST3RX Race Control v1.2.0 — Download](https://github.com/mcst3rx/MCST3RX-Race-Control/releases/tag/v1.2.0)**
+**Latest published release:**
+
+[MCST3RX Race Control — GitHub Releases](https://github.com/mcst3rx/MCST3RX-Race-Control/releases/latest)
+
+**Upcoming v1.2.0 release:**
+
+[MCST3RX Race Control v1.2.0](https://github.com/mcst3rx/MCST3RX-Race-Control/releases/tag/v1.2.0)
+
+The v1.2.0 release link will become available after official publication.
 
 Download the Windows ZIP from the release assets.
 
-Extract the ZIP and keep the executable and required runtime DLLs together.
+Extract the ZIP into a folder and keep the executable and required runtime DLLs together.
+
+Do not run the executable directly from inside the compressed ZIP.
 
 ### 🚀 Getting Started
 
 1. Launch NASCAR 25 or NASCAR 26 normally.
 2. Open MCST3RX Race Control.
-3. Select the appropriate game.
-4. Choose **Connect** or allow automatic detection if enabled.
+3. Select the appropriate NASCAR game.
+4. Choose **Connect**, or allow automatic detection if enabled.
 5. Use the supported cheats and their assigned hotkeys.
 6. Choose **Disconnect / Restore** before switching games or exiting.
 
-See [Release Notes](RELEASE_NOTES.md) for additional usage instructions and known limitations.
+See [Release Notes](RELEASE_NOTES.md) for additional usage instructions, compatibility information and known limitations.
 
-Use [SHA256SUMS.txt](SHA256SUMS.txt) to verify your downloaded release.
+Use `SHA256SUMS.txt` from the published release assets to verify your download.
 
-**Important:** Race Control is intended for offline gameplay. Saved progression changes may persist. Game updates may require compatibility updates.
+**Important:** Race Control is intended for offline gameplay. Saved progression changes may persist. Back up important saves before testing. Game updates may require compatibility updates.
 
 ---
 
 ## ✨ Current Game Support
 
+MCST3RX Race Control supports two NASCAR games with separate feature catalogs and default hotkey assignments.
+
+| Game | Original Feature Lineup | Historical Acceptance |
+|---|---:|---|
+| NASCAR 25 | 19 Cheats | 19/19 Owner-Approved |
+| NASCAR 26 | 20 Cheats | 20/20 Owner-Approved |
+| **Combined** | **39 Cheats** | **39/39 Historical Acceptance** |
+
+The final v1.2.0 release requires independent acceptance of the rebuilt application.
+
 ### 🏆 NASCAR 25 — 19 Cheats
 
-**19/19 gameplay-verified cheats.**
+The complete NASCAR 25 feature lineup and original default hotkeys:
 
-All previously accepted NASCAR 25 gameplay features are retained in v1.2.0.
+| # | Cheat | Default Hotkey | Behavior |
+|---|---|---|---|
+| 1 | Edit Money | **NUM 0** | Toggle |
+| 2 | Edit Work Points | **NUM 1** | Toggle |
+| 3 | Edit REP Points | **NUM 2** | Toggle |
+| 4 | Unlimited Fuel | **NUM 4** | Toggle |
+| 5 | Max Aero Condition | **NUM 5** | Toggle |
+| 6 | Max Engine Condition | **NUM 6** | Toggle |
+| 7 | Max Radiator Condition | **NUM 7** | Toggle |
+| 8 | Max Tire Condition | **NUM 8** | Toggle |
+| 9 | Optimal Oil / Water Temp | **NUM 9** | Toggle |
+| 10 | Edit Tire Temperature | **NUM \*** | Toggle |
+| 11 | Edit Grip Rate | **NUM +** | Toggle |
+| 12 | Increase Lap Time (10 Sec) | **NUM -** | One-shot |
+| 13 | Decrease Lap Time (10 Sec) | **NUM .** | One-shot |
+| 14 | Easy AI | **NUM /** | Toggle |
+| 15 | Super Acceleration | **DEL** | One-shot |
+| 16 | Super Brakes | **INS** | One-shot |
+| 17 | Super Jump | **END** | One-shot |
+| 18 | Edit Laps | **HOME** | One-shot |
+| 19 | Edit RD Points | **NUM 3** | Toggle |
 
-Support includes the existing Edit RD Points functionality, gameplay options, hotkey handling and game connection management.
+**NASCAR 25 features include:**
 
-The application preserves the original NASCAR 25 default hotkeys and supports customization where available.
+- Career Money, Work Points, REP Points and RD Points editing.
+- Fuel, vehicle condition and temperature management.
+- Grip adjustment.
+- Lap-time adjustments.
+- Lap editing.
+- Easy AI.
+- Super Acceleration, Super Brakes and Super Jump.
+- Customizable hotkeys.
+- Game detection and connection management.
+- Cleanup and restoration handling.
+
+All 19 original NASCAR 25 features retain their historical owner gameplay acceptance.
+
+**Note:** These are the original default hotkeys. Your active assignments may differ if you have customized them.
 
 ### 🏆 NASCAR 26 — 20 Cheats
-
-**20/20 gameplay-verified cheats.**
 
 The complete NASCAR 26 feature lineup and original default hotkeys:
 
@@ -80,9 +138,44 @@ The complete NASCAR 26 feature lineup and original default hotkeys:
 | 19 | Super Jump | **HOME** | One-shot |
 | 20 | Easy AI | **DEL** | Toggle |
 
+**NASCAR 26 features include:**
+
+- Career Money, Work Points, REP Points and RD Points editing.
+- Unlimited Fuel.
+- Aero, Engine, Radiator and Tire Condition.
+- Oil and Water Temperature.
+- Tire Temperature.
+- Grip Rate.
+- Ghost Mode.
+- Lap-time adjustments.
+- Lap editing.
+- Easy AI.
+- Super Acceleration, Super Brakes and Super Jump.
+- Customizable hotkeys and live value editors.
+
+All 20 features were historically gameplay-tested and owner-approved in the original NASCAR 26 trainer.
+
+The rebuilt Race Control v1.2.0 executable must complete its own integration and gameplay acceptance before final release.
+
 **Note:** These are the original default hotkeys. If you customize your controls, your active assignments may differ.
 
-### ⚡ NASCAR 26 Special Hotkeys
+---
+
+## ⚡ Special Hotkeys
+
+### NASCAR 25
+
+| Cheat | Hotkey | Behavior |
+|---|---|---|
+| Super Acceleration | **DEL** | One-shot acceleration effect |
+| Super Brakes | **INS** | One-shot braking effect |
+| Super Jump | **END** | One-shot jump effect |
+| Easy AI | **NUM /** | Persistent ON/OFF |
+| Edit Laps | **HOME** | One-shot lap-editing action |
+| Increase Lap Time | **NUM -** | Adds 10 seconds |
+| Decrease Lap Time | **NUM .** | Subtracts 10 seconds |
+
+### NASCAR 26
 
 | Cheat | Hotkey | Behavior |
 |---|---|---|
@@ -95,32 +188,74 @@ The complete NASCAR 26 feature lineup and original default hotkeys:
 | Increase Lap Time | **NUM .** | Adds 10 seconds |
 | Decrease Lap Time | **NUM /** | Subtracts 10 seconds |
 
-### ⌨️ Customizable Hotkeys
+**One-shot actions** execute once per supported activation.
 
-Race Control supports customizable hotkey assignments.
+**Toggle features** remain enabled or disabled according to their supported behavior and current game compatibility.
 
-- Configure supported hotkeys from the application.
-- Keep separate assignments for NASCAR 25 and NASCAR 26.
-- Duplicate hotkey assignments are detected and rejected.
+---
+
+## ⌨️ Customizable Hotkeys & Live Value Editors
+
+Race Control supports customizable hotkey assignments and live value editing for supported features.
+
+### Customizable Hotkeys
+
+- Configure supported hotkeys directly in the application.
+- Maintain separate assignments for NASCAR 25 and NASCAR 26.
+- Detect and reject duplicate hotkey assignments.
 - Use **Reset to Default Hotkeys** to restore original assignments for the selected game.
 - Enable or disable global hotkey handling where supported.
+- View current hotkey assignments beside each feature.
 
-The displayed key assignments in Race Control reflect your current configuration.
+### Live Value Editors
+
+Supported features provide editable numeric values directly in the Race Control interface.
+
+- Enter supported values into the appropriate editor.
+- Press **Enter** to commit supported changes.
+- Use the associated hotkey to control the feature where applicable.
+- Review the application status before switching games or disconnecting.
+
+Available editors and accepted values depend on the selected game and feature.
+
+Custom hotkeys do not bypass game-build compatibility checks or feature safety requirements.
 
 ---
 
 ## 🚀 What's New in v1.2.0?
 
-### 🏁 Complete NASCAR 26 Feature Lineup
+### 🏁 Complete NASCAR 25 & NASCAR 26 Feature Catalogs
 
-Version 1.2.0 includes the complete 20-cheat NASCAR 26 lineup, including four physics-related gameplay options:
+Version 1.2.0 brings together:
+
+- **19 original NASCAR 25 cheats.**
+- **20 original NASCAR 26 cheats.**
+- **39 total gameplay features.**
+- Original default hotkey mappings for both games.
+- Separate game selection and feature configurations.
+- Career editing and gameplay options.
+
+### ⚡ NASCAR 26 Physics Features
+
+The NASCAR 26 lineup includes four physics-related gameplay options:
 
 - **Super Acceleration**
 - **Super Brakes**
 - **Super Jump**
 - **Easy AI**
 
-The release also includes Work Points and RD Points support for NASCAR 26 Career gameplay.
+These features are historically owner-approved in the original trainer. Their integration into the rebuilt Race Control application remains subject to final qualification and gameplay testing.
+
+### 💰 NASCAR 26 Career Features
+
+The NASCAR 26 lineup includes:
+
+- Edit Money.
+- Edit Work Points.
+- Edit REP Points.
+- Edit RD Points.
+
+The rebuilt application's Career wallet integration must be validated against the supported game build before final release.
 
 ### ⚙️ Application Improvements
 
@@ -132,10 +267,12 @@ The release also includes Work Points and RD Points support for NASCAR 26 Career
 - Runtime stability and cleanup improvements.
 - Improved feature activation and status feedback.
 - Live value editing with Enter-to-commit behavior for supported features.
+- Updated NASCAR 25 and NASCAR 26 feature documentation.
+- Improved Windows x64 packaging and runtime dependency validation.
 
 ### 🎮 Two NASCAR Games, One Application
 
-Switch between NASCAR 25 and NASCAR 26 using the game selector and access the supported features for each game.
+Switch between NASCAR 25 and NASCAR 26 using the game selector and access the appropriate feature catalog, default hotkeys and supported live editors.
 
 ---
 
@@ -188,9 +325,7 @@ MCST3RX Race Control is provided free of charge.
 
 If you enjoy the tool and would like to support continued development, you can visit:
 
-**Ko-fi**
-
-https://ko-fi.com/mcst3rx
+**[Support MCST3RX on Ko-fi](https://ko-fi.com/mcst3rx)**
 
 Support is optional and does not unlock or gate features.
 
