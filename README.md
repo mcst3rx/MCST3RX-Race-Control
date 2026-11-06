@@ -1,3 +1,4 @@
+
 # 🏁 MCST3RX Race Control
 
 **Race Control. Your Way.**
@@ -6,11 +7,13 @@ A Windows x64 companion tool for NASCAR 25 and NASCAR 26, featuring convenient h
 
 **Latest official release: v1.1.0**
 
-**NASCAR 25 — 19 supported options | NASCAR 26 — 16 supported options**
+**NASCAR 25 — 19 supported options | NASCAR 26 — 16 options listed in v1.1.0**
 
-MCST3RX Race Control v1.2.0 is in development, targeting 19/19 NASCAR 25 features and 20/20 NASCAR 26 features.
+MCST3RX Race Control v1.2.0 is currently in development, targeting complete support for 19/19 NASCAR 25 features and 20/20 NASCAR 26 features.
 
-The v1.2.0 release will become available after final feature validation and gameplay acceptance.
+The upcoming update focuses on feature compatibility, application responsiveness, hotkey handling, connection management and runtime stability.
+
+The official v1.2.0 release will become available after final validation and gameplay acceptance.
 
 ## 📥 Download & Usage
 
@@ -20,7 +23,7 @@ Download the latest official Windows ZIP:
 
 Extract the ZIP and keep the executable and required runtime DLLs together.
 
-To use Race Control:
+### 🚀 Getting Started
 
 1. Launch NASCAR 25 or NASCAR 26 normally.
 2. Open MCST3RX Race Control.
@@ -43,7 +46,9 @@ Use [SHA256SUMS.txt](SHA256SUMS.txt) to verify your downloaded release.
 
 **19 supported and previously gameplay-accepted options.**
 
-Includes Edit RD Points and the existing gameplay features supported by the official v1.1.0 release.
+NASCAR 25 support includes the existing Edit RD Points implementation and the gameplay features supported by the official v1.1.0 release.
+
+The upcoming v1.2.0 update aims to preserve all 19 accepted features while maintaining compatibility, responsiveness and reliable connection handling.
 
 ### 🏆 NASCAR 26
 
@@ -66,22 +71,54 @@ Includes Edit RD Points and the existing gameplay features supported by the offi
 15. Decrease Lap Time
 16. Edit Laps
 
-The published v1.1.0 feature list is retained here. Development testing has identified additional runtime qualification requirements for Work Points and RD Points; their behavior should not be assumed reliable in every current NASCAR 26 session.
+The published v1.1.0 feature list is retained here.
 
-### 🚧 What's planned for v1.2.0?
+Development testing has identified additional runtime qualification requirements for Work Points and RD Points. Their behavior should not be assumed reliable in every current NASCAR 26 session.
 
-The next official release targets complete NASCAR 26 support, including the four currently unreleased physics features:
+### 🚧 What's Planned for v1.2.0?
 
-- **Super Acceleration — INS**
-- **Super Brakes — END**
-- **Super Jump — HOME**
-- **Easy AI — DEL**
+The next official release targets complete NASCAR 26 support with **20 gameplay-verified features**.
 
-The development team is also working on improving runtime qualification for Work Points and RD Points.
+Four additional gameplay features are planned:
 
-**The final goal is NASCAR 25 19/19 and NASCAR 26 20/20.**
+- **Super Acceleration — INS**  
+  Planned one-shot acceleration activation.
 
-These additions and improvements are not advertised as completed until verified. No release date is promised.
+- **Super Brakes — END**  
+  Planned one-shot braking activation.
+
+- **Super Jump — HOME**  
+  Planned one-shot jump activation.
+
+- **Easy AI — DEL**  
+  Planned persistent ON/OFF toggle.
+
+The development work also includes additional qualification of:
+
+- **Edit Work Points — NUM 1**
+- **Edit RD Points — NUM 3**
+
+These two options are already listed in v1.1.0 but require further runtime validation for the current game build.
+
+### 🏁 Final v1.2.0 Goals
+
+| Game | v1.2.0 Target |
+|---|---|
+| NASCAR 25 | 19/19 gameplay-verified features |
+| NASCAR 26 | 20/20 gameplay-verified features |
+
+The update is also intended to improve:
+
+- Application responsiveness.
+- Hotkey interaction.
+- Game connection and disconnection.
+- Compatibility validation.
+- Runtime stability.
+- Safe cleanup and restoration behavior.
+
+**These additions and improvements are not advertised as completed until verified.**
+
+No release date is currently promised.
 
 ---
 
