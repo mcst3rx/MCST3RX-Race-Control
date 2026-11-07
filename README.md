@@ -1,10 +1,10 @@
-# 🏎️ Omni Sim Racing Tools
+# 🏁 MCST3RX NASCAR Save Editor
 
-**Manage Your League. Your Way.**
+**Edit. Customize. Race Your Way.**
 
-A Windows racing league-management application for multiple simulations, with local-first championship management and distinct Free, Advanced and Pro Membership capabilities.
+A community-built Windows editor for **supported NASCAR 25 Career save data**, with guarded editing and backup workflows.
 
-> **Release status:** Active development; refer to approved release assets for the latest publicly available version.  
+> **Release status:** Latest documented public release: v1.0.1. NASCAR 26 is not supported in that release.  
 > **Platform:** Windows x64  
 > **Source code:** Private; not open source
 
@@ -12,7 +12,7 @@ A Windows racing league-management application for multiple simulations, with lo
 
 ## 📥 Download
 
-Official approved builds are distributed through [GitHub Releases](https://github.com/mcst3rx/MCST3RX-Omni-Sim-Racing-Tools-Releases/releases). Do not advertise unreleased builds or unverified Membership functionality as publicly available.
+Official approved builds are distributed through [GitHub Releases](https://github.com/mcst3rx/MCST3RX-NASCAR-Save-Editor-Releases/releases). Choose the installer or portable ZIP from the release assets when offered.
 
 Verify any published SHA-256 checksum and use only official MCST3RX distribution channels. Never disable security software to run an unsigned executable.
 
@@ -20,29 +20,35 @@ Verify any published SHA-256 checksum and use only official MCST3RX distribution
 
 ## ✨ Features
 
-- League and championship configuration
-- Driver, team, car, lineup and season management
-- Results, standings and scoring configuration
-- Local databases and backup/restore workflows
-- Advanced/Pro Membership and owner/admin functions, where validated and entitled
+- Career Money, REP, series Work Points, and supported R&D Points
+- Eligible parts/inventory quantity, repair and removal workflows
+- Pending Changes, Review, Revert, Save Changes, Save As, backups and Recent Saves
+- Diagnostics and a NASCAR-themed desktop interface
+
+Only specifically qualified save structures and operations are enabled.
 
 ---
 
 ## 🎮 Supported games and scope
 
-Development scope includes Formula 1, Formula 2, NASCAR 25, NASCAR 26 and other racing simulations. Actual support varies by application version and validated integration.
+| Game | Release support |
+|---|---|
+| NASCAR 25 | Supported save states only |
+| NASCAR 26 | Not supported by v1.0.1; future research |
 
 ---
 
 ## 🛡️ Safety and limitations
 
-Back up league databases and verify compatibility before importing data. Current Membership development is local-database based; cloud services are deferred. Do not assume all modules or integrations are available in every release.
+Keep an independent save backup, close the game before editing, and review staged changes before saving. Unsupported or stale states may be refused. Some repair and inventory operations have narrow preconditions and resource budgets. No save editor guarantees zero risk.
 
 ---
 
 ## 🚀 Installing and getting started
 
-When an approved portable Windows ZIP is published, extract it fully and launch the included application. Follow the release-specific setup instructions and keep local league database backups.
+**Installer:** Download the approved Setup EXE, run it, then open a supported save.
+
+**Portable:** Extract the full ZIP before launching the included EXE. Do not run from inside the archive. Review the detected Career and staged changes before saving.
 
 ---
 
@@ -54,15 +60,15 @@ Published release notes identify the application version, supported games/builds
 
 ## 💬 Bug reports and feature requests
 
-[Open an issue](https://github.com/mcst3rx/MCST3RX-Omni-Sim-Racing-Tools-Releases/issues/new/choose) to report a reproducible problem or suggest an improvement. Include the application version, game/version, expected and actual behavior, reproduction steps, and useful screenshots. Check existing issues first. Do not post private saves, copyrighted game assets, credentials, or sensitive logs publicly. Suggestions do not guarantee implementation.
+[Open an issue](https://github.com/mcst3rx/MCST3RX-NASCAR-Save-Editor-Releases/issues/new/choose) to report a reproducible problem or suggest an improvement. Include the application version, game/version, expected and actual behavior, reproduction steps, and useful screenshots. Check existing issues first. Do not post private saves, copyrighted game assets, credentials, or sensitive logs publicly. Suggestions do not guarantee implementation.
 
 ---
 
 ## 🔒 Source code and licensing
 
-This is a compiled-release and community-support repository; application source is maintained privately in `MCST3RX-Omni-Sim-Racing-Tools-Source`. No open-source license is granted by this README. The applicable license governs usage and redistribution; verify that license is included before distributing a build.
+This is a compiled-release and community-support repository; application source is maintained privately in `MCST3RX-NASCAR-Save-Editor-Source`. No open-source license is granted by this README. The applicable license governs usage and redistribution; verify that license is included before distributing a build.
 
-**Unlike the other free tools, Omni has separate paid Membership features.** Ko-fi purchase verification is manual through Discord support tickets; owner-issued local redeemable keys are HWID-bound under the current Omni plan. Do not promise that donations alone unlock features or that cloud activation is available.
+The documented NASCAR Save Editor license describes proprietary freeware for personal, non-commercial use. See the repository’s `LICENSE.md` for the full terms. Ko-fi support is optional and does not unlock features.
 
 ---
 
